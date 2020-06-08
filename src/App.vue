@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <b-dropdown id="dropdown-left" text="Menü" variant="primary" class="m-2">
+      <!--<b-dropdown-item ><router-link to="/events">Finde dein Event</router-link></b-dropdown-item>-->
+      <b-dropdown-item ><router-link to="/">Start</router-link></b-dropdown-item>
+      <b-dropdown-item ><router-link to="createyourevent">Erstelle ein Event</router-link></b-dropdown-item>
+      <b-dropdown-item ><router-link to="projects">Wohin fließt meine Spende?</router-link></b-dropdown-item>
+      <b-dropdown-item ><router-link to="aboutvca">Wer ist Viva con Agua?</router-link></b-dropdown-item>
+    </b-dropdown>
     <router-view/>
   </div>
 </template>
