@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <b-dropdown id="menue" text="Menü" variant="primary" class="m-2">
+      <!--<b-dropdown-item ><router-link to="/events">Finde dein Event</router-link></b-dropdown-item>-->
+      <b-dropdown-item ><router-link to="/">Start</router-link></b-dropdown-item>
+      <b-dropdown-item ><router-link to="createyourevent">Erstelle ein Event</router-link></b-dropdown-item>
+      <b-dropdown-item ><router-link to="projects">Wohin fließt meine Spende?</router-link></b-dropdown-item>
+      <b-dropdown-item ><router-link to="about">Wer ist Viva con Agua?</router-link></b-dropdown-item>
+    </b-dropdown>
     <router-view/>
   </div>
 </template>
@@ -13,8 +16,12 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
+}
+
+#menue {
+  display: block
 }
 
 #nav {
