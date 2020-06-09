@@ -1,20 +1,30 @@
 <template>
   <div class="about">
-    <b-img src="https://picsum.photos/300/150/?image=41" fluid-grow alt="Fluid-grow image"></b-img>
-    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
-
-    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
-
-    Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.
-
-    Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jícama salsify.
-
-    <b-button-group>
+    <b-img src="https://picsum.photos/300/150/?image=44" fluid-grow alt="Fluid-grow image"></b-img>
+    <h3>Wasserprojekte - klingt einfach und ist doch so vielseitig!</h3>
+    <p>Viva con Agua hat - zusammen mit seinen Projektpartnern - rund 3 Millionen Menschen (Stand: April 2019) weltweit mit WASH-Projekten erreicht. Die Projekte beinhalten:
+    </p><p>1. Zugang zu sauberem Trinkwasser
+  </p><p>2. sanitären Anlagen
+  </p><p>3. Hygieneeinrichtungen
+  </p><p>4. sowie Schulungen und Ausbildungen
+  </p><p>Wir als Viva con Agua entwickeln uns ständig weiter und optimieren konsequent die Projektqualität, um Spenden in eine Investition in Nachhaltigkeit und die Veredelung der Projekte zu verwandeln.
+  </p><p>Mit deiner Spende werden Projekte unter anderem in Mosambique, Äthiopien und Malawi finanziert.
+    </p><p>
+    Wie die Projekte genau aussehen zeigen wir dir gerne:
+    </p>
+    <div id="projects">
       <b-button href="https://vivaconagua.ch/mosambik" target="_blank">Mosambik</b-button>
       <b-button href="https://www.vivaconagua.org/index.htm?post&id=2241" target="_blank"> Äthiopien</b-button>
       <b-button href="https://www.vivaconagua.at/index.htm?post&id=94" target="_blank">Malawi</b-button>
-    </b-button-group>
-
-    <h1>This is an about page</h1>
+    </div>
   </div>
 </template>
+<script>
+
+</script>
+<style scoped>
+  #projects {
+    display: block;
+  }
+
+  </style>
