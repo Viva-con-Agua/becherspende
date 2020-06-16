@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import de from "vee-validate/dist/locale/de.json";
 import * as rules from "vee-validate/dist/rules";
+
+
+import { BootstrapVue } from 'bootstrap-vue'
 import {
   ValidationObserver,
   ValidationProvider,
@@ -11,11 +13,9 @@ import {
   localize
 } from "vee-validate";
 
+Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false
-
-Vue.use(BootstrapVue)
-Vue.use(IconsPlugin)
 
 
 // Install VeeValidate rules and localization
