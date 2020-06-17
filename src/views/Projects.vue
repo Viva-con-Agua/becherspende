@@ -32,7 +32,7 @@
                     <h4>Mosambik</h4>
                     <a href="https://vivaconagua.ch/mosambik">
 <!--
-                        <img border="0" alt="Mosambik" src="./src/assets/static/moz.png" width="100" height="100">
+                        <img border="0" alt="Mosambik" src="~assets/static/moz.jpg" width="100" height="100">
 -->
                     </a>
                 </div>
@@ -40,17 +40,13 @@
                     <h4>Äthiopien</h4>
                     <a href="https://www.vivaconagua.org/index.htm?post&id=2241">
 <!--
-                        <img border="0" alt="Äthiopien" src="src/assets/static/ath.png" width="100" height="100">
+                        <img border="0" alt="Äthiopien" src="~assets/static/ath.jpg" width="100" height="100">
 -->
                     </a>
                 </div>
                 <div id="Malawi">
                     <h4>Malawi</h4>
-                    <a href="https://www.vivaconagua.at/index.htm?post&id=94">
-<!--
-                        <img border="0" alt="Malawi" src="src/assets/static/mal.png" width="100" height="100">
--->
-                    </a>
+                        <img border="0" alt="Malawi" src="/src/assets/static/mal.jpg" width="100" height="100">
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
   import NavBar from "./components/NavBar";
   import Footer from "./components/Footer";
   export default {
-    components: {NavBar, Footer }
+    components: { NavBar, Footer }
   }
 
 </script>
@@ -19,7 +19,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
-  font-weight: bold;
   color: #363636;
 }
 

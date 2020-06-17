@@ -27,7 +27,7 @@
                     Seit diesen Anfangstagen ist der Viva con Agua Kosmos stetig gewachsen und steht inzwischen für ein Netzwerk von mehr als 10.000 ehrenamtlichen Supportern. Es gibt Viva con Agua Ehrenamts-Crews in unzähligen deutschen Städten und eigenständige eingetragene Vereine in der Schweiz, Österreich und den Niederlanden.
                 </p>
                 <p>
-                    Mit der Gründung von Viva con Agua Kampala in Uganda ist seit Anfang 2015 auch eine VcA-Crew in einem Projektland vertreten - Ugander sammeln Spenden für Projekte in Uganda und führen eigene Projekte vor Ort durch. Die Idee der ALL PROFIT Organisation und des Spendensammelns mit Spaß und Freude ist also zur internationalen Idee geworden und bewarheitet die Vision "Wasser für alle - alle für Wasser"!
+                    Mit der Gründung von Viva con Agua Kampala in Uganda ist seit Anfang 2015 auch eine VcA-Crew in einem Projektland vertreten - Ugander sammeln Spenden für Projekte in Uganda und führen eigene Projekte vor Ort durch. Die Idee der ALL PROFIT Organisation und des Spendensammelns mit Spaß und Freude ist also zur internationalen Idee geworden und bewahrheitet die Vision "Wasser für alle - alle für Wasser"!
                 </p>
             </div>
             </div>

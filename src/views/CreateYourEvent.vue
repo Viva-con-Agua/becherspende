@@ -27,13 +27,16 @@
                     </li>
                 </ol>
                     Das war´s auch schon...
-                </p>
                 <p>
                     Gerne können wir dir die Spendenseite auch als Iframe zur Verfügung stellen. So kannst du es einfach auf deiner Hompage einbinden.
                 </p>
             </div>
             <div class="column">
-                <validation-observer ref="observer" v-slot="{ handleSubmit }">
+
+                <iframe src="https://www.cognitoforms.com/f/NFxzm6caT0eT5YUmXcK4pA?id=73" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="434" width="100%"></iframe>
+
+
+                <!--<validation-observer ref="observer" v-slot="{ handleSubmit }">
                     <b-form @submit.stop.prevent="handleSubmit(onSubmit)">
                         <validation-provider
                                 name="Event"
@@ -91,14 +94,15 @@
                         <br>
                         <b-button href="https://dropbox.com/sh/" target="_blank"> Dein Social Media Paket zum Downloaden</b-button>
                     </b-form>
-                </validation-observer>
+                </validation-observer>-->
             </div>
         </div>
     </div>
 </template>
 
 <script>
-    export default {
+
+export default {
         name: "Projects",
         components: {
         },
