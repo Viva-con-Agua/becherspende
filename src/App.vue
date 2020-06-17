@@ -1,39 +1,27 @@
 <template>
   <div id="app">
-    <b-dropdown id="menue" text="Menü" variant="primary" class="m-2">
-      <!--<b-dropdown-item ><router-link to="/events">Finde dein Event</router-link></b-dropdown-item>-->
-      <b-dropdown-item ><router-link to="/">Start</router-link></b-dropdown-item>
-      <b-dropdown-item ><router-link to="createyourevent">Erstelle ein Event</router-link></b-dropdown-item>
-      <b-dropdown-item ><router-link to="projects">Wohin fließt meine Spende?</router-link></b-dropdown-item>
-      <b-dropdown-item ><router-link to="about">Wer ist Viva con Agua?</router-link></b-dropdown-item>
-    </b-dropdown>
+    <NavBar/>
+    <Footer/>
     <router-view/>
   </div>
 </template>
+<script>
+  import NavBar from "./components/NavBar";
+  import Footer from "./components/Footer";
+  export default {
+    components: {NavBar, Footer }
+  }
 
+</script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: museo,  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
-  color: #2c3e50;
-}
-
-#menue {
-  display: block
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #363636;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+
 </style>

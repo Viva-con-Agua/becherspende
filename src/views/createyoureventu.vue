@@ -53,7 +53,7 @@
                         name="email"
                         :rules="{ required: true, min: 3 }"
                         v-slot="validationContext">
-                    <b-form-group id="eventemail_group" label="E-Mail Adresse:" label-for="Kontaktemail">
+                    <b-form-group id="eventemail_group" label="Kontakt E-Mail:" label-for="Kontaktemail">
                         <b-form-input
                                 id="email"
                                 name="email"
@@ -67,11 +67,10 @@
                 </validation-provider>
                 <b-button href="https://dropbox.com/request/ma46BPbksfZe7tuJLgJku" target="_blank">Upload Image</b-button>
                 <br>
-                <b-button href="https://dropbox.com/sh/" target="_blank"> Dein Social Media Paket zum Downloaden</b-button>
-                <br>
                 <b-button type="submit" variant="primary">Submit</b-button>
                 <b-button class="ml-2" @click="resetForm()">Reset</b-button>
-
+                <br>
+                <b-button href="https://dropbox.com/sh/" target="_blank"> Dein Social Media Paket zum Downloaden</b-button>
             </b-form>
         </validation-observer>
                </div>
