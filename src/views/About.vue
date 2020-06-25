@@ -9,6 +9,9 @@
                     <iframe height="500px" src="https://www.youtube.com/embed/elymJVBx0YQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 </div>
+						</div>
+
+            <div class="column">
                 <div class="card">
                     <h2>
                         Für eine Welt ohne Durst!
@@ -16,16 +19,10 @@
                     <p>
                     Viva con Agua setzt sich dafür ein, dass alle Menschen weltweit Zugang zu sauberem TRINKWASSER haben. Darum fördern wir Wasserprojekte und Aktionen im In- und Ausland nach dem Motto "Wasser für alle - alle für Wasser". Dabei setzen wir auf jede Menge positiven Aktivismus:
                     </p>
-
-                </div>
-
-                <div class="card">
                     <p>
                     Als ALL PROFIT Organisation (Non-Profit klingt so freudlos) setzen wir auf die universellen Sprachen Musik, Kunst und Sport um Menschen für sauberes Trinkwasser zu aktivieren und Spenden zu generieren.
                     </p>
                 </div>
-            </div>
-            <div class="column">
                 <div class="card">
                     <p>
                     Dafür besuchen wir Konzerte und Festivals um Pfandbecher zu sammeln, halten Vorträge an Schulen und Universitäten, arbeiten mit Unternehmen zusammen und aktivieren überall, wo es Spaß macht!
