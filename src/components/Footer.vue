@@ -1,5 +1,6 @@
 <template>
         <div class="footer">
+            <div class="container">
             <span id="footer-logo" ></span>
             <div class="row">
                 <div class="col-xl-9 col-md-12">
@@ -37,7 +38,7 @@
                                style="background-image: ./assets/img/insta.svg"></a>
                         </div>
                         <div class="ch">
-                            <div class="flag full show" :style="{ backgroundImage: `url(${at})` }">
+                            <div class="flag full show" :style="{ backgroundImage: `url(${ch})` }">
                             </div>
                             <div class="flag outline"
                                  style="background-image: ./assets/img/ch_outline.svg)"></div>
@@ -64,7 +65,7 @@
                 <div id="copyright" class="col-md-3 col-sm-12">&copy;{{copyright}}</div>
             </div>
         </div>
-
+        </div>
 </template>
 
 <script>
@@ -140,7 +141,6 @@ $grey: #363636;
 	position: relative;
 	text-align: center;
 	padding: 3rem 0;
-	margin-top: 8rem;
 	h3 {
 		font-size: 24px;
 		font-family: "johntape",  sans-serif;

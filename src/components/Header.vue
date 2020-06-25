@@ -1,6 +1,6 @@
 <template>
     <div id="header">
-    <div class="row" :style="{ backgroundImage: `url(${headerImg})` }">
+    <div class="row">
     <div class="container">
         <div class="row">
             <div id="heading" class="col-md-4" :style="{ backgroundImage: `url(${heading})` }"></div>
@@ -42,9 +42,7 @@ $grey: #363636;
     background-position: center center;
 }
 #header {
-    margin-bottom: 13rem;
     @media screen and (min-width: 1200px){
-        margin-bottom: 300px;
     }
     &> .row {
         @include cover();
@@ -78,6 +76,7 @@ $grey: #363636;
     }
     #heading {
         height: 203px;
+        width: 203px;
         position: absolute;
         top: 70px;
         left: 50%;
@@ -87,6 +86,11 @@ $grey: #363636;
         @media screen and (min-width: 1200px){
             left: 13%;
         }
+        background-size: 170px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    background-color: $blue;
     }
     #cup_start,
     #cup_start_festival {

@@ -2,7 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import de from "vee-validate/dist/locale/de.json";
-import * as rules from "vee-validate/dist/rules";
+import * as rules from "vee-validate/dist/rules"
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 
 import { BootstrapVue } from 'bootstrap-vue'
