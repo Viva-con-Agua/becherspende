@@ -8,7 +8,8 @@
                 <div class="card">
                 <p style="text-align=left;">
                     Du hättest Viva con Agua gerne zu deiner Veranstaltung eingeladen aber das Event kann nicht stattfinden?
-                    Du planst ein Konzert, ein Streaming Event, ein Autokino, oder eine andere Veranstaltung und wir dürfen digital dabei sein?
+                    Du planst ein Konzert, ein Streaming Event, ein Autokino, oder eine andere Veranstaltung und wir dürfen digital dabei sein? <br>
+                    <br> Na dann los! <br>
                     <br>Du kannst Viva con Agua bei der Online Becherjagd supporten und damit Spenden für sauberes Trinkwasser sammeln.
                     </p>
                 </div>
@@ -19,7 +20,7 @@
                     So geht´s
                 <ol>
                     <li>
-                        Trage dich unten im Formular ein und lade eine Bilddatei hoch, die wir im Header deiner Spendenseite anzeigen sollen.
+                        Trage dich unten im Formular ein und lade ein Logo hoch, das wir im Header deiner Spendenseite anzeigen sollen.
                     </li>
                     <li>
                         Wir erstellen für dein Event eine individuelle Spendenseite, zu der du einen Link erhälst.
