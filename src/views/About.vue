@@ -25,7 +25,7 @@
                 </div>
                 <div class="card">
                     <p>
-                    Dafür besuchen wir Konzerte und Festivals um Pfandbecher zu sammeln, halten Vorträge an Schulen und Universitäten, arbeiten mit Unternehmen zusammen und aktivieren überall, wo es Spaß macht!
+                    Dafür besuchen wir Konzerte und Festivals um Depotbecher zu sammeln, halten Vorträge an Schulen und Universitäten, arbeiten mit Unternehmen zusammen und aktivieren überall, wo es Spaß macht!
                     Durch freudvolle Aktionen generieren wir Gelder die schließlich in WASH-Projekte in immer mehr Viva con Agua Ländern fließen.
                     WASH steht für Wasser, Sanitär und Hygiene und verbessert so die Lebensumstände von vielen Menschen langfristig.
                     Der Verein Viva con Agua de Sankt Pauli e.V. wurde 2006 offiziell eingetragen und als gemeinnützig anerkannt.
