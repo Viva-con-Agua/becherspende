@@ -11,13 +11,13 @@
                 <div class="col-xl-3 col-md-6">
                     <h3>Kontakt</h3>
                     <div id="contact">
-                        <div class="de">
-                            <div class="flag full  show" :style="{ backgroundImage: `url(${de})` }">
+                        <div class="de" >
+                            <div class="flag full  show" :style="{ backgroundImage: `url(${de})` }" @click.prevent="clickDE">
                             </div>
                             <div class="flag outline"
                                  :style="{ backgroundImage: `url(${de_outline})` }"></div>
                         </div>
-                        <div class="icons de">
+                        <div class="icons de" :class="debar">
                             <a :href="links.de.mail"
                                 :style="{ backgroundImage: `url(${mail})` }"></a>
                             <a :href="links.de.fb" :style="{ backgroundImage: `url(${fb})` }"></a>
@@ -25,30 +25,30 @@
                                :style="{ backgroundImage: `url(${insta})` }"></a>
                         </div>
                         <div class="at">
-                            <div class="flag full show" :style="{ backgroundImage: `url(${at})` }">
+                            <div class="flag full show" :style="{ backgroundImage: `url(${at})` }" @click.prevent="clickAT">
                             </div>
                             <div class="flag outline"
                                  style="background-image: ./assets/img/at_outline.svg)"></div>
                         </div>
-                        <div class="icons at">
+                        <div class="icons at" :class="atbar">
                             <a :href="links.at.mail"
-                               style="background-image: ./assets/img/mail.svg"></a>
-                            <a :href="links.at.fb" style="background-image: ./assets/img/fb.svg"></a>
+                               :style="{ backgroundImage: `url(${mail})` }"></a>
+                            <a :href="links.at.fb" :style="{ backgroundImage: `url(${fb})` }"></a>
                             <a :href="links.at.insta"
-                               style="background-image: ./assets/img/insta.svg"></a>
+                               :style="{ backgroundImage: `url(${insta})` }"></a>
                         </div>
                         <div class="ch">
-                            <div class="flag full show" :style="{ backgroundImage: `url(${ch})` }">
+                            <div class="flag full show" :style="{ backgroundImage: `url(${ch})` }" @click.prevent="clickCH">
                             </div>
                             <div class="flag outline"
                                  style="background-image: ./assets/img/ch_outline.svg)"></div>
                         </div>
-                        <div class="icons ch">
+                        <div class="icons ch" :class="chbar">
                             <a :href="links.ch.mail"
-                               style="background-image: ./assets/img/mail.svg"></a>
-                            <a :href="links.ch.fb" style="background-image: ./assets/img/fb.svg"></a>
+                               :style="{ backgroundImage: `url(${mail})` }"></a>
+                            <a :href="links.ch.fb" :style="{ backgroundImage: `url(${fb})` }"></a>
                             <a :href="links.ch.insta"
-                               style="background-image: ./assets/img/insta.svg"></a>
+                               :style="{ backgroundImage: `url(${insta})` }"></a>
                         </div>
                     </div>
                 </div>
@@ -112,8 +112,42 @@ export default {
             ch_outline,
             mail,
             insta,
-            fb
+            fb,
+            debar: "",
+            chbar: "",
+            atbar: ""
         }
+    },
+    methods: {
+        clickDE () {
+            if (this.debar === "") {
+                this.chbar = ""
+                this.atbar = ""
+                this.debar = "show"
+            } else {
+                this.debar = ""
+            }
+        },
+        clickAT () {
+            if (this.atbar === "") {
+                this.chbar = ""
+                this.debar = ""
+                this.atbar = "show"
+            } else {
+                this.atbar = ""
+            }
+        },
+        clickCH () {
+            if (this.chbar === "") {
+                this.debar = ""
+                this.atbar = ""
+                this.chbar = "show"
+            } else {
+                this.chbar = ""
+            }
+        }
+
+
     }
 }
 </script>
