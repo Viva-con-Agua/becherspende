@@ -19,7 +19,7 @@
                     So geht´s
                 <ol>
                     <li>
-                        Trage dich unten im Formular ein und lade ein Logo hoch, damit wir deine eigene Spendenseite erstellen können. 
+                        Trage dich im Formular ein und lade ein Logo hoch, damit wir deine eigene Spendenseite erstellen können. 
                     </li>
                     <li>
                        Wir erstellen dir deine individuelle Spendenseite für deinen Event und senden dir den Link dazu.
@@ -31,7 +31,7 @@
                     Das war´s auch schon...
                 </p>
                 <p>
-                    Gerne können wir dir die Spendenseite auch als Iframe zur Verfügung stellen. So kannst du es einfach auf deiner Hompage einbinden.
+                    Gerne können wir dir die Spendenseite auch als Iframe zur Verfügung stellen. So kannst du es einfach auf deiner Homepage einbinden.
                 </p>
                 </div>
             </div>
