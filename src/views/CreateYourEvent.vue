@@ -7,6 +7,7 @@
             <div class="column">
                 <div class="card">
                 <p style="text-align=left;">
+                 Du hättest Viva con Agua gerne zu deiner Veranstaltung eingeladen aber das Event kann nicht stattfinden?
                    Du planst ein Konzert, ein Streaming Event, ein Autokino, ein Yogakurs oder eine andere Veranstaltung und willst VcA mit dabei haben? <br>
                     <br> Na dann los! <br>
                     <br>Du kannst Viva con Agua bei der Online Becherjagd supporten und damit Spenden für sauberes Trinkwasser sammeln.
@@ -31,7 +32,7 @@
                     Das war´s auch schon...
                 </p>
                 <p>
-                    Gerne können wir dir die Spendenseite auch als Iframe zur Verfügung stellen. So kannst du es einfach auf deiner Hompage einbinden.
+                    Gerne können wir dir die Spendenseite auch als Iframe zur Verfügung stellen. So kannst du es einfach auf deiner Homepage einbinden.
                 </p>
                 </div>
             </div>
